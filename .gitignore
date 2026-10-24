@@ -1,0 +1,28 @@
+# Python Virtual Environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+backend/data/*.db-journal
+
+# Node Dependencies & Build Artifacts
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+.vercel/
+frontend/.vercel/
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+
+# OS & Editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
