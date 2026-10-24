@@ -18,7 +18,7 @@ import {
   initialReports
 } from "./mockData";
 
-const API_BASE = "/api";
+const API_BASE = import.meta.env.VITE_API_BASE_URL || "/api";
 
 // In-Memory Fallback State for Serverless / Static Hosting (Vercel)
 let mockApps: ApplicationRecord[] = JSON.parse(JSON.stringify(initialApplications));
